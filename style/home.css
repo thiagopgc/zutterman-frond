@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  height: 100vh;
+}
+
+header {
+  width: 1440px;
+  height: 110px;
+  background-color: #ffffff;
+  display: flex;
+}
+/* .ponto1 {
+  display: none;
+}
+.ponto2 {
+  display: none;
+}
+.ponto3 {
+  display: none;
+} */
+header img {
+  margin-left: 4%;
+  object-fit: cover;
+  height: 60%;
+  margin-top: 22px;
+}
+#logo {
+  height: 110px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#logo h1 {
+  position: absolute;
+  width: 168px;
+  height: 48px;
+  left: 147px;
+  top: 20px;
+  font-family: "RobotoCondensed";
+  font-size: 41.2px;
+  line-height: 48px;
+  display: flex;
+  align-items: flex-end;
+
+  color: #846219;
+}
+p {
+  position: absolute;
+  width: 170px;
+  height: 19px;
+  left: 151px;
+  top: 68px;
+  font-family: "RobotoCondensed";
+  font-size: 16.2px;
+  line-height: 19px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 5.4px;
+  color: #846219;
+}
+
+nav {
+  width: 50%;
+  height: 110px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 110px;
+  list-style: none;
+}
+
+li a {
+  color: #846219;
+  text-decoration: none;
+  font-size: 16.2px;
+}
+
+#card1 {
+  width: 100%;
+  height: 1024px;
+  background-color: #e9e9e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card1 h1 {
+  position: absolute;
+  width: 348px;
+  left: 231px;
+  top: 425px;
+  font-family: "RobotoCondensed";
+  font-size: 82.2px;
+  line-height: 96px;
+  display: flex;
+  align-items: flex-end;
+  color: #716565;
+}
+#card1 img {
+  position: absolute;
+  width: 682px;
+  height: 335px;
+  left: 606px;
+  top: 345px;
+  mix-blend-mode: multiply;
+}
+#card2 {
+  width: 100%;
+  height: 1024px;
+  background-color: #506fa9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#card2 h1 {
+  position: absolute;
+  width: 484px;
+  height: 162px;
+  left: 159px;
+  top: 1473px;
+  font-family: "RobotoCondensed";
+  font-size: 69.2px;
+  line-height: 81px;
+  display: flex;
+  align-items: flex-end;
+  color: #ffffff;
+}
+#card2 p {
+  position: absolute;
+  width: 582px;
+  height: 300px;
+  left: 159px;
+  top: 1661px;
+  font-family: "RobotoCondensed";
+  font-size: 48.2px;
+  line-height: 56px;
+  display: flex;
+  align-items: flex-end;
+  color: #ffffff;
+}
+
+#card2 img {
+  position: absolute;
+  width: 1038px;
+  height: 689px;
+  left: 402px;
+  top: 1107px;
+  mix-blend-mode: multiply;
+}
+
+footer {
+  width: 1440px;
+  height: 226px;
+  background-color: #e9e9e9;
+}
+
+.youtube {
+  position: absolute;
+  width: 42.91px;
+  height: 42.91px;
+  left: 151.02px;
+  top: 2266.07px;
+  background: #716565;
+  mix-blend-mode: multiply;
+}
+.youtube2 {
+  position: absolute;
+  width: 19.44px;
+  height: 13.83px;
+  left: 162.73px;
+  top: 2280.64px;
+  background: #716565;
+  mix-blend-mode: multiply;
+}
+.facebook {
+  position: absolute;
+  width: 42.91px;
+  height: 42.91px;
+  left: 216.02px;
+  top: 2266.07px;
+  background: #716565;
+  mix-blend-mode: multiply;
+}
+.facebook2 {
+  position: absolute;
+  width: 9.34px;
+  height: 19.23px;
+  left: 232.78px;
+  top: 2280.64px;
+  background: #716565;
+  mix-blend-mode: multiply;
+}
+.twitter {
+  position: absolute;
+  width: 42.91px;
+  height: 42.91px;
+  left: 277.02px;
+  top: 2266.07px;
+  background: #716565;
+  mix-blend-mode: multiply;
+}
+.twitter2 {
+  position: absolute;
+  width: 20.06px;
+  height: 16.45px;
+  left: 288.43px;
+  top: 2280.64px;
+  background: #716565;
+  mix-blend-mode: multiply;
+}
+footer h1 {
+  position: absolute;
+  width: 105px;
+  height: 32px;
+  left: 151px;
+  top: 2210px;
+  font-family: "RobotoCondensed";
+  font-size: 27.2px;
+  line-height: 32px;
+  display: flex;
+  align-items: flex-end;
+  color: #716565;
+}
+footer h2 {
+  position: absolute;
+  width: 85px;
+  height: 32px;
+  left: 579px;
+  top: 2210px;
+  font-family: "RobotoCondensed";
+  font-size: 27.2px;
+  line-height: 32px;
+  display: flex;
+  align-items: flex-end;
+  color: #716565;
+}
+footer p {
+  position: absolute;
+  width: 215px;
+  height: 57px;
+  left: 579px;
+  top: 2266.07px;
+  font-family: "RobotoCondensed";
+  font-size: 16.2px;
+  line-height: 19px;
+  display: flex;
+  align-items: flex-end;
+  color: #716565;
+}
