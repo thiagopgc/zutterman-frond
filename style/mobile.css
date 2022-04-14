@@ -18,6 +18,7 @@
     left: 28px;
     background: #e2e0b8;
     transform: rotate(90deg);
+    visibility: visible;
   }
   .ponto2 {
     position: absolute;
@@ -27,6 +28,7 @@
     top: 13px;
     background: #e2e0b8;
     transform: rotate(90deg);
+    visibility: visible;
   }
   .ponto3 {
     position: absolute;
@@ -36,6 +38,7 @@
     top: 27px;
     background: #e2e0b8;
     transform: rotate(90deg);
+    visibility: visible;
   }
   header img {
     margin-left: 4%;
@@ -211,11 +214,6 @@
     mix-blend-mode: multiply;
   }
 
-  .teste {
-    width: 100%;
-    height: 40%;
-    display: flex;
-  }
   footer h2 {
     position: absolute;
     width: 85px;
